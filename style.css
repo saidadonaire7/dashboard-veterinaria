@@ -1,0 +1,56 @@
+
+body { 
+    font-family: "Segoe UI", Arial, sans-serif; 
+    background-color: #f7f9fa; 
+    margin: 0;
+}
+
+
+.vet-top-container {
+    z-index: 4;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+
+.vet-identity-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.admin-profile-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.vet-nav-bar {
+    background-color: #005f5f !important; 
+}
+
+
+.w3-dropdown-content {
+    min-width: 240px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.vet-main { 
+    margin-top: 20px; 
+    padding-bottom: 40px;
+}
+
+
+@media (max-width:992px) {
+    .vet-identity-bar {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .admin-profile-top {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
